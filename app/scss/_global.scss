@@ -1,0 +1,131 @@
+    html {
+        height: 100%;
+    }
+    
+    body {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #000000;
+        height: 100%;
+        background-color: #f8f8f8;
+        position: relative;
+        z-index: 50;
+    }
+    
+    .body--block {
+        height: 100vh;
+        overflow-y: hidden;
+        padding-right: 15px;
+    }
+    
+    main {
+        flex-grow: 1;
+    }
+    
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    
+    a,
+    input,
+    textarea {
+        outline: transparent;
+    }
+    
+    a {
+        color: #fff;
+    }
+    
+    img {
+        object-fit: cover;
+    }
+    
+    .container {
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+        height: 100%;
+    }
+    
+    .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.6;
+        @media(max-width: 991px) {
+            font-size: 30px;
+        }
+        @media(max-width: 480px) {
+            font-size: 26px;
+        }
+    }
+    
+    .button {
+        padding: 14px 42px;
+        background-color: #F7971C;
+        color: #ffffff;
+        font-weight: 600;
+        transition: all .3s;
+        cursor: pointer;
+        border: transparent;
+        height: 50px;
+        outline: transparent;
+        border-color: #F7971C;
+        box-shadow: 0 0 40px 40px #F7971C inset, 0 0 0 0 #F7971C;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+        &:hover,
+         :focus {
+            box-shadow: 0 0 10px 0 #F7971C inset, 0 0 10px 4px #F7971C;
+            background-color: #ffffff;
+            color: #F7971C;
+            font-weight: 800;
+            font-size: 16px;
+        }
+        &:active {
+            background-color: #E9E6DC;
+        }
+    }
+    
+    .slick-arrow {
+        position: absolute;
+        bottom: -60px;
+        z-index: 10;
+        font-size: 0;
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+        &.slick-prev {
+            left: 12%;
+            background-image: url(../images/section.vulcan/arrow-left.svg);
+            @media(max-width: 768px) {
+                left: 41%;
+            }
+            @media(max-width: 480px) {
+                left: 16%;
+            }
+        }
+        &.slick-next {
+            right: 18%;
+            background-image: url(../images/section.vulcan/arrow-right.svg);
+            outline: transparent;
+            @media(max-width: 768px) {
+                right: 17%;
+            }
+            @media(max-width: 480px) {
+                right: 16%;
+            }
+        }
+    }

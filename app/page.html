@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камчатка | Путешествие</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/header/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <svg display="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="facebook">
+<path d="M14.6644 3.65292H16.6728V0.154917C16.3263 0.10725 15.1346 0 13.7468 0C10.851 0 8.86738 1.82142 8.86738 5.16908V8.25H5.67188V12.1605H8.86738V22H12.7852V12.1614H15.8515L16.3382 8.25092H12.7843V5.55683C12.7852 4.42658 13.0895 3.65292 14.6644 3.65292Z"/>
+    </symbol>
+
+    <symbol id="instagram">
+<path d="M15.9287 0H6.07107C2.72349 0 0 2.74266 0 6.11365V16.0402C0 19.4113 2.72349 22.1538 6.07107 22.1538H15.9287C19.2765 22.1538 22 19.4112 22 16.0402V6.11365C22.0001 2.74266 19.2765 0 15.9287 0ZM20.0482 16.0402C20.0482 18.3275 18.2002 20.1882 15.9288 20.1882H6.07107C3.79979 20.1883 1.95195 18.3275 1.95195 16.0402V6.11365C1.95195 3.82649 3.79979 1.96559 6.07107 1.96559H15.9287C18.2001 1.96559 20.0481 3.82649 20.0481 6.11365V16.0402H20.0482Z"/>
+<path d="M10.9999 5.36914C7.87404 5.36914 5.33105 7.92987 5.33105 11.0775C5.33105 14.225 7.87404 16.7856 10.9999 16.7856C14.1257 16.7856 16.6687 14.225 16.6687 11.0775C16.6687 7.92987 14.1257 5.36914 10.9999 5.36914ZM10.9999 14.82C8.95047 14.82 7.28299 13.1411 7.28299 11.0774C7.28299 9.01355 8.95034 7.33457 10.9999 7.33457C13.0494 7.33457 14.7168 9.01355 14.7168 11.0774C14.7168 13.1411 13.0493 14.82 10.9999 14.82Z" />
+<path d="M16.9061 3.70312C16.53 3.70312 16.1605 3.85644 15.8949 4.12506C15.628 4.39238 15.4746 4.76452 15.4746 5.14453C15.4746 5.52336 15.6282 5.89537 15.8949 6.164C16.1604 6.43131 16.53 6.58594 16.9061 6.58594C17.2835 6.58594 17.6517 6.43131 17.9185 6.164C18.1853 5.89537 18.3375 5.52323 18.3375 5.14453C18.3375 4.76452 18.1853 4.39238 17.9185 4.12506C17.653 3.85644 17.2835 3.70312 16.9061 3.70312Z" />
+    </symbol>
+
+    <symbol id="youtube">
+      <path d="M20.8768 5.84558C20.6391 4.96199 19.9424 4.26547 19.059 4.02754C17.445 3.58594 10.989 3.58594 10.989 3.58594C10.989 3.58594 4.53324 3.58594 2.91927 4.0108C2.05281 4.24847 1.33916 4.96212 1.10149 5.84558C0.676758 7.45943 0.676758 10.8063 0.676758 10.8063C0.676758 10.8063 0.676758 14.1701 1.10149 15.7671C1.33942 16.6506 2.03581 17.3471 2.9194 17.585C4.55024 18.0267 10.9893 18.0267 10.9893 18.0267C10.9893 18.0267 17.445 18.0267 19.059 17.6019C19.9426 17.3641 20.6391 16.6676 20.877 15.7841C21.3016 14.1701 21.3016 10.8233 21.3016 10.8233C21.3016 10.8233 21.3186 7.45943 20.8768 5.84558ZM8.93355 13.8983V7.71435L14.302 10.8063L8.93355 13.8983Z" />
+    </symbol>
+    </svg>
+
+
+    <header class="header header-page">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="images/header/logo.svg" alt="Логотип">
+                    </a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                          <span class="menu__span"></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="index.html">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="page.html">Экскурсии</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Цены и даты</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">О нас</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="header__phone" href="tel:+79147806100">+ 7 (914) 780 61 00</a>
+                </div>
+                <h1 class="header__title header-page__title">Оптимальное путешествие</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="about-tour">
+            <div class="container">
+                <div class="about-tour__inner">
+                    <div class="about-tour__items">
+                        <div class="about-tour__box">
+                            <h2 class="about-tour__title title">Подробнее о туре</h2>
+                            <div class="about-tour__content">
+                                <p class="about-tour__text">
+                                    Тур насыщенный самыми интересными природными объектами полуострова. Мутновский и Толбачик — это вулканы которые, мы считаем, обязан посетить каждый человек, приезжающий на Камчатку.
+                                </p>
+                                <p class="about-tour__text">
+                                    Спокойный сплав по реке Быстрая возможность любому туристу, познакомиться с природой, испытать удачу в рыбалке и возможно увидеть медведей на берегу реки. Беконечный Халактырский пляж с черным песком дает возможность почувствовать безграничную мощь Тихого
+                                    океана. А ещё горячие источники, этническая экскурсия и знакомство с ездовыми собаками.
+                                </p>
+                            </div>
+                            <h3 class="about-tour__subtitle">В программе тура: </h3>
+                            <ul class="about-tour__list">
+                                <li class="about-tour__item">
+                                    Вулкан Толбачик и Толбачинский дол, извержения 1975 и 2012 г.г
+                                </li>
+                                <li class="about-tour__item">
+                                    Вулкан Мутновский, восхождение в кратер
+                                </li>
+                                <li class="about-tour__item">
+                                    Морская прогулка в бухту Русская, лежбище сивучей
+                                </li>
+                                <li class="about-tour__item">
+                                    Экскурсия к подножью вулкана Авачинский
+                                </li>
+                                <li class="about-tour__item">
+                                    Сплав по реке Быстрая, рыбалка
+                                </li>
+                                <li class="about-tour__item">
+                                    Вертолетная экскурсия в Долину Гейзеров
+                                    <span>(оплачивается отдельно)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-tour__items">
+                        <img class="about-tour__img" src="images/section.about/about-tour.png" alt="Пример тура">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="program-slider">
+            <div class="container">
+                <h2 class="program-slider__title title">Программа тура</h2>
+                <div class="program-slider__inner">
+                    <div class="program-slider__items">
+                        <div class="program-slider__content">
+                            <div class="program-slider__item">
+                                <img class="program-slider__img" data-lazy="images/section.program-slider/slider-1.png" alt="Пример тура">
+                            </div>
+                            <div class="program-slider__item">
+                                <div class="program-slider__box">
+                                    <h3 class="program-slider__name">День 1. Сплав по реке Быстрая</h3>
+                                    <p class="program-slider__text">Выезд в район реки Быстрая. По дороге короткая остановка в поселке Сокоч. После приезда к месту начала сплава, обед, затем непосредственно сплав на рафтах в сопровождении гидов-проводников. В процессе сплава желающие
+                                        могут рыбачить.
+                                    </p>
+                                    <p class="program-slider__text">
+                                        Рыболовные снасти, обед и купание в Малкинских горячих источниках включены в стоимость программы. Рыболовная лицензия оплачивается отдельно.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-slider__items">
+                        <div class="program-slider__content">
+                            <div class="program-slider__item">
+                                <img class="program-slider__img" data-lazy="images/section.program-slider/slider-2.jpg" alt="Пример тура">
+                            </div>
+                            <div class="program-slider__item">
+                                <div class="program-slider__box">
+                                    <h3 class="program-slider__name">День 2. Lorem ipsum dolor sit.</h3>
+                                    <p class="program-slider__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum maxime soluta, eius nihil laborum labore fugiat officia exercitationem neque alias natus est, vero earum, commodi quidem maiores sint doloribus eos! Dolores
+                                        reprehenderit quisquam debitis odit? Perferendis, ducimus a voluptatem doloremque quia iste unde! Magnam, dolores beatae, odio iste, eveniet praesentium quidem in error autem corporis quia ratione debitis suscipit
+                                        aspernatur..
+                                    </p>
+                                    <p class="program-slider__text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nulla deleniti neque amet fugiat tempora rem perspiciatis dicta, doloremque inventore, blanditiis cupiditate nihil obcaecati dolorem hic quo quas suscipit a?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-slider__items">
+                        <div class="program-slider__content">
+                            <div class="program-slider__item">
+                                <img class="program-slider__img" data-lazy="images/section.program-slider/slider-3.jpg" alt="Пример тура">
+                            </div>
+                            <div class="program-slider__item">
+                                <div class="program-slider__box">
+                                    <h3 class="program-slider__name">День 3. Lorem, ipsum. </h3>
+                                    <p class="program-slider__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error nam non consequatur ratione praesentium quidem dignissimos atque libero. Architecto deserunt quibusdam dolorum cumque laboriosam deleniti ducimus laborum
+                                        magni voluptate dignissimos. Architecto deserunt quibusdam dolorum cumque laboriosam deleniti ducimus laborum magni voluptate dignissimos.
+                                    </p>
+                                    <p class="program-slider__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet sunt dolore quas quam laborum soluta adipisci cumque ad illum, quos optio provident maxime. Veniam impedit repellat sapiente voluptate amet. Quo reprehenderit veritatis labore dolorem
+                                        eveniet quidem possimus ipsam alias, esse consequuntur autem explicabo odit quae ducimus quod quasi ea commodi facere quibusdam? Consequuntur, architecto nemo nobis voluptate eaque animi.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-slider__items">
+                        <div class="program-slider__content">
+                            <div class="program-slider__item">
+                                <img class="program-slider__img" data-lazy="images/section.program-slider/slider-4.jpg" alt="Пример тура">
+                            </div>
+                            <div class="program-slider__item">
+                                <div class="program-slider__box">
+                                    <h3 class="program-slider__name">День 4. Lorem ipsum dolor sit.</h3>
+                                    <p class="program-slider__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi blanditiis facere labore aut. Quasi perspiciatis voluptas ex cupiditate voluptate, voluptatum eligendi eveniet magnam vero hic omnis aliquam sunt harum
+                                        tenetur?
+                                    </p>
+                                    <p class="program-slider__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repudiandae, architecto pariatur nesciunt ipsam eligendi optio blanditiis, earum iusto repellat adipisci! Iure nemo modi sed assumenda repellat harum distinctio laudantium?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-slider__items">
+                        <div class="program-slider__content">
+                            <div class="program-slider__item">
+                                <img class="program-slider__img" data-lazy="images/section.program-slider/slider-5.jpg" alt="Пример тура">
+                            </div>
+                            <div class="program-slider__item">
+                                <div class="program-slider__box">
+                                    <h3 class="program-slider__name">День 5. Lorem, ipsum dolor.</h3>
+                                    <p class="program-slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae alias, odio hic dolor tempora, fugit laborum minus quo incidunt optio voluptatem praesentium soluta nostrum voluptates ex assumenda. Eligendi, quae
+                                        esse. Blanditiis possimus a consequuntur nemo deserunt quos, ex quidem deleniti. Itaque dolores, maxime corporis quis minus voluptate officia molestias rerum iure impedit quos dignissimos amet delectus? Explicabo
+                                        excepturi dicta facere!
+                                    </p>
+                                    <p class="program-slider__text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vel ab dolores animi, maxime iusto consequatur tenetur minima ducimus quibusdam minus quia suscipit, totam reiciendis omnis obcaecati neque illum atque. Incidunt necessitatibus, aspernatur
+                                        voluptates molestiae iste ducimus nesciunt illo doloribus alias eaque at modi, quod quia reprehenderit cumque iure quisquam veritatis tempore. Architecto et sed, officia cum tenetur iure enim.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-slider__items">
+                        <div class="program-slider__content">
+                            <div class="program-slider__item">
+                                <img class="program-slider__img" data-lazy="images/section.program-slider/slider-6.jpg" alt="Пример тура">
+                            </div>
+                            <div class="program-slider__item">
+                                <div class="program-slider__box">
+                                    <h3 class="program-slider__name">День 6. Lorem.</h3>
+                                    <p class="program-slider__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa aspernatur praesentium magnam repellendus atque facilis sit dolorem minima natus maiores suscipit voluptatum beatae quia dolores nisi, illum tempore tempora?
+                                        Soluta?
+                                    </p>
+                                    <p class="program-slider__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officiis minima illum pariatur veritatis repudiandae porro unde placeat perspiciatis libero, voluptates eaque dignissimos est odit rem impedit magnam voluptatem similique.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-slider__items">
+                        <div class="program-slider__content">
+                            <div class="program-slider__item">
+                                <img class="program-slider__img" data-lazy="images/section.program-slider/slider-7.jpg" alt="Пример тура">
+                            </div>
+                            <div class="program-slider__item">
+                                <div class="program-slider__box">
+                                    <h3 class="program-slider__name">День 7. Lorem, ipsum dolor.</h3>
+                                    <p class="program-slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <p class="program-slider__text">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam id alias excepturi veritatis vitae, quis consequuntur, consequatur numquam eius architecto aliquid nobis dicta, ullam iste. Velit voluptatibus porro commodi doloremque. Iusto qui cumque
+                                        explicabo, delectus obcaecati maxime soluta minima iure, similique atque provident repellendus neque officia earum optio illo. Eos sunt quisquam quod nam error blanditiis recusandae velit ut cupiditate.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="accordion accordion-page">
+            <div class="container">
+                <h2 class="accordion__title title">Важная информация</h2>
+                <div class="accordion__inner">
+                    <div class="accordion__box">
+                        <div class="accordion__items">
+                            <h3 class="accordion__name">Что включено в тур "Оптимальное путешествие"?</h3>
+                            <p class="accordion__text">В тур включено проживание в гостинице, все трансферы, услуги гида, транспорт, также групповое снаряжение (палатка столовая, посуда, стулья), 2-3 местные палатки для туристов, туристические коврики, трекинговые палки. Полноценное
+                                питание при палаточном проживании (завтрак и ужин), паек на время экскурсий и восхождений (яблоко, шоколадка, орехи, бутерброды, вода).
+                            </p>
+                        </div>
+                        <div class="accordion__items">
+                            <h3 class="accordion__name">Что не включено в тур?</h3>
+                            <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate porro illum fuga! Nesciunt eos ipsam, at officiis quibusdam autem eaque fuga atque, quas odio minima accusamus, saepe accusantium magnam aperiam? Dolor ut qui
+                                a fuga quibusdam ipsa delectus modi est dignissimos, incidunt excepturi, at, placeat laborum illo autem! Quos libero, sit porro provident odit molestias cum sapiente voluptatum iure repellendus? Temporibus pariatur sunt
+                                veritatis voluptatum at obcaecati ducimus adipisci doloremque commodi! Vero labore ipsum accusamus error eum. Neque deleniti quibusdam vel aliquam inventore, ipsam laudantium tempore sunt reprehenderit ut nulla.
+                            </p>
+                        </div>
+                        <div class="accordion__items">
+                            <h3 class="accordion__name">Что следует брать с собой в дорогу?</h3>
+                            <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, culpa quo. Veritatis, reiciendis velit blanditiis rerum dicta accusamus eligendi autem. Quasi quidem obcaecati non amet, beatae dolore quisquam vel similique!
+                                Cumque exercitationem, aut amet dolor est incidunt similique iste atque voluptates porro natus quos earum. Earum, quam tempore velit nemo dolores autem eius maiores minima placeat possimus totam commodi sunt.
+                            </p>
+                        </div>
+                        <div class="accordion__items">
+                            <h3 class="accordion__name">Как производится оплата?</h3>
+                            <p class="accordion__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis magnam quasi odio ducimus impedit? Earum libero, dignissimos ratione quo veniam harum expedita dolorum nam? Nemo eligendi natus sunt iusto dolores! Amet, blanditiis
+                                vero. Qui vero modi, temporibus enim natus quibusdam. Harum quam, dolor laudantium ducimus nam, adipisci ab est ipsam totam ad, corrupti vitae suscipit eveniet debitis sed sunt delectus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form form-page">
+            <div class="container">
+                <h2 class="form__title form__title--media title">Хотите забронировать тур?</h2>
+                <div class="form__inner">
+                    <div class="form__items">
+                        <div class="form__item">
+                            <h2 class="form__title title">Хотите забронировать тур?</h2>
+                            <form class="form__info">
+                                <input class="form__field" name="name" type="text" placeholder="ФИО" required>
+                                <input class="form__field" name="tel" type="tel" placeholder="Номер телефона" required>
+                                <input class="form__field" name="e-mail" type="email" placeholder="E-mail" required>
+                                <input class="button" type="submit" value="Забронировать тур">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form__items form__media">
+                        <img class="form__img" src="images/section__form/form-page.png" alt="Фотопример">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="photo-slider">
+            <div class="container">
+                <h2 class="photo-slider__title title">Фотографии этого тура</h2>
+                <div class="photo-slider__inner">
+                    <div class="photo-slider__items">
+                        <img class="photo-slider__image" data-lazy="images/section.photo-slider/slider-1.png" alt="Фото слайдера">
+                    </div>
+                    <div class="photo-slider__items">
+                        <img class="photo-slider__image" data-lazy="images/section.photo-slider/slider-2.jpg" alt="Фото слайдера">
+                    </div>
+                    <div class="photo-slider__items">
+                        <img class="photo-slider__image" data-lazy="images/section.photo-slider/slider-3.jpg" alt="Фото слайдера">
+                    </div>
+                    <div class="photo-slider__items">
+                        <img class="photo-slider__image" data-lazy="images/section.photo-slider/slider-4.jpg" alt="Фото слайдера">
+                    </div>
+                    <div class="photo-slider__items">
+                        <img class="photo-slider__image" data-lazy="images/section.photo-slider/slider-5.jpg" alt="Фото слайдера">
+                    </div>
+                    <div class="photo-slider__items">
+                        <img class="photo-slider__image" data-lazy="images/section.photo-slider/slider-6.jpg" alt="Фото слайдера">
+                    </div>
+                    <div class="photo-slider__items">
+                        <img class="photo-slider__image" data-lazy="images/section.photo-slider/slider-7.jpg" alt="Фото слайдера">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="logo" href="" class="logo">
+                    <img class="logo__img" src="images/header/logo.svg" alt="Логотип">
+                </a>
+                <div class="footer__adress">
+                    <span class="footer__span">Реестровый номер туроператора: РТО 022064</span>
+                    <span class="footer__phone-text">Телефон:</span>
+                    <a href="tel:+79147806100" class="footer__phone"> + 7 (914) 780 61 00</a>
+                    <span class="footer__span">Электронная почта: service@kamchatravel.ru</span>
+                    <span class="footer__span">Адрес: г. Петропавловск-Камчатский, ул. Лукашевского 23 офис 10</span>
+                </div>
+                <div class="footer__social">
+                    <span>Мы в социальных сетях:</span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link link__block" href="#">
+                                <span class="visually-hidden">Иконка Instagram</span>
+                                <svg class="footer__svg" width="22" height="22">
+                                  <use xlink:href="#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link link__block" href="#">
+                                <span class="visually-hidden">Иконка Youtube</span>
+                                <svg class="footer__svg" width="22" height="22">
+                                  <use xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link link__block" href="#">
+                                <span class="visually-hidden">Иконка Facebook</span>
+                                <svg class="footer__svg" width="22" height="22">
+                                  <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
